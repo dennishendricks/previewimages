@@ -1,0 +1,7 @@
+{
+  "name": "netlify-plugin-cache-directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dennis Hagemeier",
+  "license": "MIT"
+}

@@ -2,6 +2,11 @@
   command = "yarn generate"
   publish = "public"
 
+[[plugins]]
+package = "./plugins/cache-directory"
+  [plugins.inputs]
+    cacheDir = "public/cache"
+
 [[redirects]]
   from = "https://d-hagemeier-previewimages.netlify.app/"
   to = "https://www.d-hagemeier.com/"
