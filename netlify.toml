@@ -5,7 +5,7 @@
 [[plugins]]
 package = "./plugins/cache-directory"
   [plugins.inputs]
-    cacheDir = "public/cache"
+    cacheDir = "/cache"
 
 [[redirects]]
   from = "https://d-hagemeier-previewimages.netlify.app/"
