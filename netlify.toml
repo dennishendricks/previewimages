@@ -3,7 +3,10 @@
   publish = "public"
 
 [[plugins]]
-package = "./plugins/cache-directory"
+  package = "@netlify/plugin-local-install-core"
+
+[[plugins]]
+  package = "./plugins/cache-directory"
   [plugins.inputs]
     cacheDir = "/cache"
 
